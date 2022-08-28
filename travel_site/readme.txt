@@ -1,0 +1,1 @@
+I wrote this website from a 6 hour guide from YouTube. Although this site was not written from scratch by me, its creation gave me a lot of experience with HTML, CSS and Figma. I learned how to edit the layout in the browser and work with adapting the site for mobile devices. Also, thanks to the guide, I was able to learn how to use Figma templates for layout.
