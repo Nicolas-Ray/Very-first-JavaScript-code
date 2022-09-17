@@ -1,0 +1,163 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;600;700&display=swap');
+
+:root {
+    --container-width: 1000px;
+    --container-padding: 60px;
+}
+
+body {
+    font-family: 'El Messiri', sans-serif;
+    background-color: rgb(15, 30, 38);
+    color: #FFFF;
+}
+
+.main-header a {
+    color: #FFFF;
+}
+
+/* Header  */
+
+.main-header {
+    width: var(--container-width);
+    height: 60px;
+
+    margin: 51px 220px 70px 220px;
+    padding-bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 135px;
+
+    border-bottom: 1px solid #ffff;
+}
+
+.header-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header-menu {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.header-menu a {
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+.header-login {
+    padding: 5px 15px;
+    background: #018ABE;
+    border-radius: 3px; 
+}
+
+.login-btn {
+    font-weight: 600;
+    font-size: 13px;    
+
+    text-align: center;
+}
+
+/* News */
+
+.news {
+    width: var(--container-width);
+    height: 659px;
+
+    margin-top: var(--container-padding);
+    margin-left: 220px;
+}
+
+.news-title {
+    width: 382px;
+    height: 59px;
+
+    margin-left: 380px;
+    margin-bottom: 100px;
+    align-items: center;
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+}
+
+.title-text {
+    font-weight: 700;
+    font-size: 28px;
+
+    text-align: center;
+}
+
+.news-main {
+    width: var(--container-width);
+    height: 540px;
+
+    margin-top: var(--container-padding);
+}
+
+.news-block {
+    width: var(--container-width);
+    height: 258px;
+
+    margin-bottom: 18px;
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 18px;
+}
+
+.block-item {
+    width: 316px;
+    height: 258px;
+
+    padding: 30px;
+
+    background-image: url(./../imgs/news/image.png);
+
+    border-radius: 10px;
+}
+
+.item-date {
+    width: 96px;
+    height: 30px;
+
+    font-weight: 700;
+    font-size: 14px;
+
+    padding: 6px 12px 5px;
+
+    background-color: #018ABE;
+    border-radius: 5px;
+
+    margin-bottom: 139px;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+/* Footer */
+
+.trade-mark {
+    width: var(--container-width);
+    height: 49px;
+
+    font-weight: 400;
+    font-size: 14px;
+
+    text-align: left;
+
+    padding-top: 30px;
+    border-top: 1px solid #FFFF;
+
+    margin-top: 120px;
+    margin-left: 220px;
+    margin-bottom: 30px;
+}
