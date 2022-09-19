@@ -1,0 +1,117 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: #FFFF;
+}
+
+.none {
+    display: none !important;
+}
+
+.main-screen a {
+    color: #FFFF;
+}
+
+.main-screen {
+    width: 1440px;
+    height: 850px;
+
+    background-size: 1920px 1000px;
+
+    background-image: url(./../imgs/background.png);
+    overflow: hidden;
+}
+
+/* Nav */
+
+.nav_pannel {
+    width: 582px;
+    height: 66px;
+
+    padding: 23px 52px;
+
+    margin-top: 30px;
+    margin-left: 200px;
+
+    background: linear-gradient(180deg, rgba(30, 92, 255, 0.816) 0%, rgba(98, 65, 191, 0.7905) 100%);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+}
+
+.nav-logo {
+    width: 67px;
+    height: 24px;
+
+    align-items: center;
+}
+
+.nav-menu {
+    width: 342px;
+    height: 19px;
+
+    font-weight: 300;
+    font-size: 16px;
+
+    align-items: center;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+/* Cta */
+
+.main-cta {
+    width: 428px;
+    height: 366px;
+
+    margin-top: 265px;
+    margin-left: 506px;
+}
+
+.cta-title {
+    width: 428px;
+    height: 48px;
+
+    font-weight: 400;
+    font-size: 40px;
+
+    text-align: center;
+    background: linear-gradient(180deg, #FFD602 0%, #FFAE02 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.cta-decals {
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+.cta-decals img {
+    margin-left: 23px;
+}
+
+.cta-btn {
+    width: 156px;
+    height: 61px;
+
+    font-weight: 400;
+    font-size: 24px; 
+    text-align: center;  
+    color: #FFD602;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin-top: 130px;
+    margin-left: 136px;
+
+    background: linear-gradient(180deg, rgba(30, 90, 255, 0.696) 0%, rgba(98, 65, 191, 0.688) 100%);
+    border-radius: 10px;    
+}
