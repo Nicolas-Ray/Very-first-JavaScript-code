@@ -1,0 +1,170 @@
+.first-screen {
+    width: 1440px;
+    height: 1000px;
+    background-image: url(./../imgs/header/backgound.png);
+}
+
+.first-screen a {
+    color: #FFFF;
+}
+
+
+/* Nav */
+
+.nav {
+    max-width: 1440px;
+    height: 76px;
+    padding: 0px 170px 0px 170px;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    column-gap: 40px;
+
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav__logo {
+    width: 153px;
+    height: 46px;
+}
+
+.nav__info-menu {
+    width: 782px;
+    height: 20px;
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+.nav__item {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav__item-active {
+    color: #1900ff; 
+}
+
+.nav__soc {
+    width: 92px;
+    height: 36px;   
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+/* Title */
+
+.first-screen__title {
+    width: 636px;
+    height: 201px;
+
+    margin: 200px 0px 0px 170px;
+
+    font-weight: 700;
+    font-size: 48px;
+}
+
+/* Btn */
+
+.first-screen__media {
+    width: 268px;
+    height: 80px;
+
+    margin: 68px 0px 0px 170px;
+
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.media-btn {
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 180px;
+}
+
+.media-btn__element {
+    width: 59px;
+    height: 59px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #8D86C9;
+    border-radius: 180px;
+}
+
+.first-screen__media p {
+    width: 158px;
+    height: 50px;
+
+    font-weight: 600;
+    font-size: 16px;   
+}
+
+
+/* Services */
+
+.first-screen__services {
+    width: 1100px;
+    height: 151px;
+
+    margin: 224px 0px 0px 170px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services__container {
+    width: 267px;
+    height: 151px;
+
+    background: #8D86C9;
+
+    padding: 35px 25px 35px 25px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services__container-subtitle {
+    font-weight: 600;
+    font-size: 16px;
+
+    width: 125px;
+    height: 25px;
+    text-align: left;
+
+    margin-bottom: 17px;
+}
+
+.services__container-title {
+    font-weight: 700;
+    font-size: 20px;
+
+    width: auto;
+    height: 34px;
+}
+
+.services__container-link {
+    width: 30px;
+    height: 30px;
+
+    margin-left: 35px;
+}

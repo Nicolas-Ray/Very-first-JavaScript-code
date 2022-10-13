@@ -1,0 +1,316 @@
+/* Base */
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 14px;    
+}
+
+.btns {
+    width: 105px;
+    height: 45px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+
+    background-color: #8D86C9;
+    align-items: center;
+}
+
+
+/* Advantages */
+
+.advantages {
+    width: 1110px;
+    height: 440px;  
+
+    margin: 150px 0px 0px 165px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-container {
+    width: 416px;
+    height: 440px;
+
+    padding: 8px 5px 8px 5px;
+
+    position: relative;
+}
+
+.advantages-text {
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+
+    width: 376px;
+    height: 76px;
+
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 130%);
+}
+
+
+/* About */
+
+.about {
+    color: #333333 !important;
+}
+
+.about-block {
+    width: 1076px;
+    height: 654px;
+
+    margin: 150px 0px 0px 182px;
+    display: flex;
+    justify-content: right;
+}
+
+.about-block__container {
+    width: 636px;
+    height: 654px;  
+
+    position: relative;
+
+    background-color: #F7ECE1;
+
+    display: flex;
+}
+
+.about-img {
+    width: 526px;
+    height: 514px;
+
+    position: absolute;
+    top: 10%;
+    left: -70%;
+}
+
+.about-img img{
+    width: 526px;
+    height: 514px;
+}
+
+.about-block__text {
+    width: 430px;
+    height: 500px;
+
+    margin: 70px 0px 0px 146px;
+}
+
+.about__title {
+    width: 430px;
+    height: 50px;   
+
+    margin-bottom: 25px;
+}
+
+.about__text {
+    width: 430px;
+    height: 134px;  
+
+    margin-bottom: 35px;
+}
+
+.about__subtitle {
+    width: 430px;
+    height: 29px;
+
+    margin-bottom: 25px;
+}
+
+.about-info {
+    font-weight: 400;
+    font-size: 14px;  
+
+    width: 400px;
+    height: 202px;
+}
+
+.li_text {
+    color: #333333 !important;
+}
+
+.li_color {
+    color: #8D86C9;
+}
+
+
+/* Trainers */
+
+.trainers {
+    width: 1296px;
+    height: 523px;
+
+    color: #333333;
+
+    margin: 150px 0px 0px 170px;
+}
+
+.trainers-title__block {
+    width: 1100px;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 75px;
+}
+
+.trainers__title {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.trainers-imgs {
+    width: 1100px;
+    height: 400px;
+
+    display: flex;
+    gap: 24px;
+}
+
+.trainer {
+    width: 196px;
+    height: 400px;
+}
+
+.trainer img {
+    width: 196px;
+    height: 240px;
+
+    padding: 0px 15px 0px 15px;
+}
+
+.trainers__subtitle {
+    width: 196px;
+    height: 58px;
+
+    text-align: center;
+}
+
+.trainers__text {
+    width: 196px;
+    height: 60px;
+
+    text-align: center;
+}
+
+
+/* Comercial */
+
+.comercial {
+    width: 1100px;
+    height: 455px;
+
+    margin: 150px 0px 0px 170px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Prices */
+
+.prices {
+    width: 526px;
+    height: 455px;
+}
+
+.prices__title {
+    width: 351px;
+    height: 50px;   
+
+    color: #333333;
+
+    margin-bottom: 45px;
+}
+
+.prices__container {
+    width: 426px;
+    height: 330px;
+}
+
+.price {
+    width: 426px;
+    height: 60px;
+
+    padding: 0px 30px 0px 15px;
+
+    margin-top: 30px;
+
+    background-color: #8D86C9;
+
+    align-items: center;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.prices__subtitle {
+    width: 268px;
+    height: 29px;
+}
+
+
+/* Amenities */
+
+.amenities {
+    width: 506px;
+    height: 455px;
+}
+
+.amenities-title__container {
+    width: 506px;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 105px;
+}
+
+.amenities__title {
+    width: 115px;
+    height: 50px;
+
+    color: #333333;
+}
+
+.amenities-img {
+    width: 506px;
+    height: 270px;  
+    position: relative;
+}
+
+.amenities-text {
+    font-weight: 700;
+    font-size: 27px;
+
+    width: 168px;
+    height: 38px;
+
+    position: absolute;
+    bottom: 70px;
+    left: 16px;
+}

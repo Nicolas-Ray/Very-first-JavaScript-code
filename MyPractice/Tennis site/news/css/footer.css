@@ -1,0 +1,39 @@
+/* Footer */
+
+.footer-container {
+    width: 1440px;
+    height: 96px;
+
+    padding: 10px 0px 10px 0px;
+
+    background-color: #F7ECE1;
+
+    margin-top: 120px;
+}
+
+.footer-container a {
+    color: #333333;
+}
+
+.footer-menu {
+    max-width: 1440px;
+    height: 76px;
+
+    padding: 38px 140px 38px 140px;
+
+    display: flex;
+    column-gap: 40px;
+
+    align-items: center;
+}
+
+.autor-rights {
+    width: 198px;
+    height: 20px;
+
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #333333;
+    opacity: 0.3;
+}
